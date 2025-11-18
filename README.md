@@ -21,10 +21,10 @@ This toolkit is designed for exactly those scenarios. It provides a simple comma
 - Choose an Option: A menu will appear. Enter the number corresponding to the desired operation and press Enter.
 
 The script provides a simple menu with the following choices:
-1 - Turn On Display: Wakes the device's screen. This is a quick way to check if the phone is powered on and responsive.
-2 - Backup Main Folders: Copies essential folders (DCIM, Download, Pictures, WhatsApp Media, etc.) from your phone's internal storage to a backup folder on your PC. Note: This only works if the phone is in a "Soft Lock" state.
-3 - Start Scrcpy (Remote Control): Launches Scrcpy, allowing you to see and control your phone's screen in a window on your PC using your mouse and keyboard. This is the perfect tool for unlocking your device or using it normally.
-4 - Exit: Closes the toolkit.
+- Turn On Display: Wakes the device's screen. This is a quick way to check if the phone is powered on and responsive.
+- Backup Main Folders: Copies essential folders (DCIM, Download, Pictures, WhatsApp Media, etc.) from your phone's internal storage to a backup folder on your PC. Note: This only works if the phone is in a "Soft Lock" state.
+- Start Scrcpy (Remote Control): Launches Scrcpy, allowing you to see and control your phone's screen in a window on your PC using your mouse and keyboard. This is the perfect tool for unlocking your device or using it normally.
+- Exit: Closes the toolkit.
 
 - Understanding "Soft Lock" vs. "Hard Lock"
    - HARD LOCK (after a reboot): If you've just rebooted your phone, its internal storage is encrypted. It requires your first unlock (PIN/pattern/password) to be decrypted.
