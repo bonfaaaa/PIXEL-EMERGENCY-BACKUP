@@ -20,7 +20,7 @@ echo - Per visualizzare lo schermo con scrcpy, puo' anche essere in hard lock.
 echo ==========================================
 echo.
 timeout /t 1 >nul
-cd /d ".\platform-tools"
+
 
 :MENU
 echo.
@@ -58,6 +58,8 @@ echo ------------------------------------------
 echo Copio tutte le cartelle principali sul PC...
 set BACKUPFOLDER="%~dp0PixelBackup_%date:~6,4%%date:~3,2%%date:~0,2%"
 mkdir %BACKUPFOLDER%
+
+cd /d ".\platform-tools"
 
 echo Copio Download...
 adb pull "/sdcard/Download" %BACKUPFOLDER%\Download
